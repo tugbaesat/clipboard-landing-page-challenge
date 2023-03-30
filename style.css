@@ -1,0 +1,67 @@
+:root {
+  --Strong-Cyan: hsl(171, 66%, 44%);
+  --Light-Blue: hsl(233, 100%, 69%);
+  --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+  --Grayish-Blue: hsl(201, 11%, 66%);
+  --Font-size: 18px;
+  --font-family: "Bai Jamjuree", sans-serif;
+  --Weights: 400, 600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1.1rem;
+}
+#ios-btn {
+  background: hsl(171, 66%, 44%);
+}
+#ios-btn:hover {
+  background: hsl(171, 66%, 44%);
+}
+#mac-btn {
+  background: hsl(233, 100%, 69%);
+}
+#mac-btn:hover {
+  background: hsl(233, 100%, 69%);
+}
+.hero-section {
+  background-image: url(./images/bg-header-desktop.png),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1,
+h2,
+h3 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+p {
+  color: hsl(201, 11%, 66%);
+}
+.device-image {
+  width: 75%;
+}
+.footer-section {
+  background-color: hsl(201, 11%, 66%, 0.1);
+  font-size: 1rem;
+}
+
+
+@media screen and (min-width:768px) {
+.computer-screen {
+  margin-left: -5vw;
+  margin-right: -5vw;
+  max-width: 50vw;
+  position: relative;
+  right: 60%;
+  width: 150%;
+}
+.left-alignment {
+  text-align: left;
+}
+}
