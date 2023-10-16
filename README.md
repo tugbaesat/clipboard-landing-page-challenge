@@ -8,7 +8,7 @@ Design preview for the Clipboard landing page coding challenge:
 
 ## Live Demo of the Project: 📹
 
-[Clipboard Landing Page]([https://nextjs-tip-calculator.vercel.app/](https://clipboard-landing-page-challenge.vercel.app))
+[Clipboard Landing Page](https://clipboard-landing-page-challenge.vercel.app)
 
 ## Technologies, Frameworks and Libraries: ☕️ 🐍 ⚛️
 - HTML
